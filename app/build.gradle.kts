@@ -2,16 +2,20 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.google.gms.google.services)
+    alias(libs.plugins.hilt.android)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.ktx.serializable)
 }
 
 android {
     namespace = "com.adikob.galaxychat"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.adikob.galaxychat"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -36,6 +40,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 
@@ -49,6 +54,26 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.cloud.messaging)
+    implementation(libs.firebase.database)
+    implementation(libs.hilt)
+    implementation(libs.hilt.compose)
+    implementation(libs.room.core)
+    implementation(libs.room.ktx)
+    implementation(libs.room.paging)
+    implementation(libs.paging3)
+    implementation(libs.paging3.compose)
+    implementation(libs.nav.compose)
+    implementation(libs.constraint.layout)
+    implementation(libs.coil)
+    implementation(libs.googleid)
+    implementation(libs.ktx.serialization)
+
+    ksp(libs.hilt.compiler)
+    ksp(libs.room.compiler)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "702464301281",
+    "firebase_url": "https://galaxychat-f8061-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "galaxychat-f8061",
+    "storage_bucket": "galaxychat-f8061.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702464301281:android:6ea50a9acbce4948e03fa0",
+        "android_client_info": {
+          "package_name": "com.adikob.galaxychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702464301281-okjsrs2uhp7tnq1rie3hkm6moe528lvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adikob.galaxychat",
+            "certificate_hash": "2b86eff8c2503dee17021492c76454731f9a3c65"
+          }
+        },
+        {
+          "client_id": "702464301281-0ovteroqlnqc2qrjutdfdi9d8i34jtrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDooKdjIRGfvrJV3wbFRLF_2eNYKjQl4pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702464301281-0ovteroqlnqc2qrjutdfdi9d8i34jtrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

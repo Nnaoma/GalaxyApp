@@ -2,10 +2,10 @@ package com.adikob.galaxychat.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+val Space80 = Color(0xFFa7adba)
+val SpaceGrey80 = Color(0xFFc0c5ce)
+val Grey80 = Color(0xFF65737e)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+val Space40 = Color(0xFF343d46)
+val SpaceGrey40 = Color(0xFF4f5b66)
+val Grey40 = Color(0xFFa7adba)

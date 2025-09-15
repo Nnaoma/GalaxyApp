@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">GalaxyChat</string>
+    <string name="welcome">Welcome,</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="or">OR</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
+    <string name="continue_with_google">Continue with google</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="start_new_conversation">Start new conversation</string>
+    <string name="navigate_back">Navigate back</string>
+    <string name="send_message">Send Message</string>
+    <string name="type_a_message">Type a message…</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="hi_user">Hi, %1$s</string>
+    <string name="contacts">Contacts</string>
+    <string name="retry">Retry</string>
+    <string name="error_occurred_loading_data">Error occurred while loading data</string>
+    <string name="error_occurred_signing_in">Error occurred signing in</string>
+    <string name="unknown_credentials">Unknown auth credentials</string>
+    <string name="more_options">More options</string>
+    <string name="log_out">Log out</string>
 </resources>
