@@ -1,0 +1,14 @@
+21:10:34.055 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+21:10:34.639 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+21:11:00.238 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - galaxychat-f8061-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 463ms, init: 0ms
+21:11:00.483 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace galaxychat-f8061-default-rtdb status Active to Active
+22:17:31.477 [FirebaseWorkerPool-1-1] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace galaxychat-f8061, but the emulator is configured for galaxychat-f8061-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+22:17:31.916 [NamespaceSystem-akka.actor.default-dispatcher-10] INFO com.firebase.core.namespace.NamespaceActor - galaxychat-f8061 successfully activated FBKV (SurveyIdle(0)) wait: 90ms, init: 0ms
+22:17:36.077 [FirebaseWorkerPool-1-2] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace fake-server, but the emulator is configured for galaxychat-f8061,galaxychat-f8061-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+22:17:36.085 [NamespaceSystem-akka.actor.default-dispatcher-13] INFO com.firebase.core.namespace.NamespaceActor - fake-server successfully activated FBKV (SurveyIdle(0)) wait: 3ms, init: 0ms

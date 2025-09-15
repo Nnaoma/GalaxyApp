@@ -1,0 +1,202 @@
+[debug] [2025-09-15T20:10:14.864Z] ----------------------------------------------------------------------
+[debug] [2025-09-15T20:10:14.869Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2025-09-15T20:10:14.870Z] CLI Version:   13.25.0
+[debug] [2025-09-15T20:10:14.870Z] Platform:      win32
+[debug] [2025-09-15T20:10:14.870Z] Node Version:  v20.16.0
+[debug] [2025-09-15T20:10:14.870Z] Time:          Mon Sep 15 2025 21:10:14 GMT+0100 (West Africa Standard Time)
+[debug] [2025-09-15T20:10:14.871Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-15T20:10:15.075Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-15T20:10:15.076Z] > authorizing via signed-in user (ibejinnaomamiracle@gmail.com)
+[debug] [2025-09-15T20:10:15.453Z] openjdk version "17.0.1" 2021-10-19
+
+[debug] [2025-09-15T20:10:15.455Z] OpenJDK Runtime Environment (build 17.0.1+12-39)
+OpenJDK 64-Bit Server VM (build 17.0.1+12-39, mixed mode, sharing)
+
+[debug] [2025-09-15T20:10:15.478Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: auth, functions, firestore, database, extensions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, database, extensions"}}
+[debug] [2025-09-15T20:10:15.482Z] Checked if tokens are valid: true, expires at: 1757969952679
+[debug] [2025-09-15T20:10:15.483Z] Checked if tokens are valid: true, expires at: 1757969952679
+[debug] [2025-09-15T20:10:15.485Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/galaxychat-f8061 [none]
+[debug] [2025-09-15T20:10:19.180Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/galaxychat-f8061 200
+[debug] [2025-09-15T20:10:19.180Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/galaxychat-f8061 {"projectId":"galaxychat-f8061","projectNumber":"702464301281","displayName":"GalaxyChat","name":"projects/galaxychat-f8061","resources":{"hostingSite":"galaxychat-f8061","realtimeDatabaseInstance":"galaxychat-f8061-default-rtdb"},"state":"ACTIVE","etag":"1_144a7a16-f9c9-4b4f-8ba7-089d9f86dd9b"}
+[debug] [2025-09-15T20:10:19.213Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-15T20:10:19.213Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-15T20:10:19.213Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-15T20:10:19.213Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-15T20:10:19.213Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-15T20:10:19.213Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4545},{"address":"::1","family":"IPv6","port":4545}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-09-15T20:10:19.223Z] [hub] writing locator at C:\Users\DELL\AppData\Local\Temp\hub-galaxychat-f8061.json
+[debug] [2025-09-15T20:10:19.236Z] [Extensions] Started Extensions emulator, this is a noop.
+[debug] [2025-09-15T20:10:19.247Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-15T20:10:19.248Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-15T20:10:19.248Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-15T20:10:19.248Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4545},{"address":"::1","family":"IPv6","port":4545}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mhosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2025-09-15T20:10:19.254Z] defaultcredentials: writing to file C:\Users\DELL\AppData\Roaming\firebase\ibejinnaomamiracle_gmail_com_application_default_credentials.json
+[debug] [2025-09-15T20:10:19.259Z] Setting GAC to C:\Users\DELL\AppData\Roaming\firebase\ibejinnaomamiracle_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\DELL\\AppData\\Roaming\\firebase\\ibejinnaomamiracle_gmail_com_application_default_credentials.json"}}
+[debug] [2025-09-15T20:10:19.260Z] Checked if tokens are valid: true, expires at: 1757969952679
+[debug] [2025-09-15T20:10:19.260Z] Checked if tokens are valid: true, expires at: 1757969952679
+[debug] [2025-09-15T20:10:19.260Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/galaxychat-f8061/adminSdkConfig [none]
+[debug] [2025-09-15T20:10:20.065Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/galaxychat-f8061/adminSdkConfig 200
+[debug] [2025-09-15T20:10:20.065Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/galaxychat-f8061/adminSdkConfig {"projectId":"galaxychat-f8061","databaseURL":"https://galaxychat-f8061-default-rtdb.europe-west1.firebasedatabase.app","storageBucket":"galaxychat-f8061.firebasestorage.app"}
+[debug] [2025-09-15T20:10:20.102Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-09-15T20:10:20.102Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2025-09-15T20:10:20.102Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\DELL\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","galaxychat-f8061","--rules","C:\\Users\\DELL\\AndroidStudioProjects\\GalaxyChat\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8080} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\DELL\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"galaxychat-f8061\",\"--rules\",\"C:\\\\Users\\\\DELL\\\\AndroidStudioProjects\\\\GalaxyChat\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8080}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2025-09-15T20:10:25.519Z] Sep 15, 2025 9:10:25 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://127.0.0.1:9150
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 15, 2025 9:10:25 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\r\nINFO: Started WebSocket server on ws://127.0.0.1:9150\r\n"}}
+[debug] [2025-09-15T20:10:25.893Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
+[debug] [2025-09-15T20:10:25.893Z] 127.0.0.1:8080
+ {"metadata":{"emulator":{"name":"firestore"},"message":"127.0.0.1:8080\n"}}
+[debug] [2025-09-15T20:10:25.893Z] If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080
+
+If you are running a Firestore in Datastore Mode project, run:
+
+   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":"If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\r\n\n   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8080\n\nIf you are running a Firestore in Datastore Mode project, run:\r\n\n   export DATASTORE_EMULATOR_HOST=127.0.0.1:8080\n\n"}}
+[debug] [2025-09-15T20:10:25.894Z] Note: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Note: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.\r\nDev App Server is now running.\n\r\n"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2025-09-15T20:10:26.052Z] Checked if tokens are valid: true, expires at: 1757969952679
+[debug] [2025-09-15T20:10:26.052Z] Checked if tokens are valid: true, expires at: 1757969952679
+[debug] [2025-09-15T20:10:26.053Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/galaxychat-f8061 [none]
+[debug] [2025-09-15T20:10:28.061Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/galaxychat-f8061 200
+[debug] [2025-09-15T20:10:28.061Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/galaxychat-f8061 {"projectId":"galaxychat-f8061","projectNumber":"702464301281","displayName":"GalaxyChat","name":"projects/galaxychat-f8061","resources":{"hostingSite":"galaxychat-f8061","realtimeDatabaseInstance":"galaxychat-f8061-default-rtdb"},"state":"ACTIVE","etag":"1_144a7a16-f9c9-4b4f-8ba7-089d9f86dd9b"}
+[debug] [2025-09-15T20:10:28.062Z] database rules config:  [{"instance":"galaxychat-f8061-default-rtdb","rules":"C:\\Users\\DELL\\AndroidStudioProjects\\GalaxyChat\\database.rules.json"}]
+[debug] [2025-09-15T20:10:28.070Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2025-09-15T20:10:28.071Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-09-15T20:10:28.071Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2025-09-15T20:10:28.071Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\DELL\\.cache\\firebase\\emulators\\firebase-database-emulator-v4.11.2.jar","--host","127.0.0.1","--port",9000,"--single_project_mode","Warning","--functions_emulator_host","127.0.0.1","--functions_emulator_port",5001],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host","single_project_mode"],"joinArgs":false,"shell":false,"port":9000} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\DELL\\\\.cache\\\\firebase\\\\emulators\\\\firebase-database-emulator-v4.11.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",9000,\"--single_project_mode\",\"Warning\",\"--functions_emulator_host\",\"127.0.0.1\",\"--functions_emulator_port\",5001],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":9000}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[debug] [2025-09-15T20:10:34.058Z] 21:10:34.055 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+ {"metadata":{"emulator":{"name":"database"},"message":"21:10:34.055 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started\r\n"}}
+[debug] [2025-09-15T20:10:34.639Z] 21:10:34.639 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+ {"metadata":{"emulator":{"name":"database"},"message":"21:10:34.639 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000\r\n"}}
+[debug] [2025-09-15T20:10:57.714Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-09-15T20:10:57.715Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2025-09-15T20:10:57.716Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\DELL\\.cache\\firebase\\emulators\\ui-v1.14.0\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false,"port":4000} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\DELL\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.14.0\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false,\"port\":4000}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2025-09-15T20:10:58.583Z] Web / API server started at 127.0.0.1:4545
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4545\n"}}
+[debug] [2025-09-15T20:10:58.584Z] Web / API server started at ::1:4545
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4545\n"}}
+[debug] [2025-09-15T20:10:58.626Z] [Extensions] Connecting Extensions emulator, this is a noop.
+[info] i  functions: Watching "C:\Users\DELL\AndroidStudioProjects\GalaxyChat\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\DELL\\AndroidStudioProjects\\GalaxyChat\\functions\" for Cloud Functions..."}}
+[debug] [2025-09-15T20:10:58.644Z] Validating nodejs source
+[warn] !  functions: Couldn't find firebase-functions package in your source code. Have you run 'npm install'? 
+[debug] [2025-09-15T20:10:58.647Z] getFunctionsSDKVersion encountered error: Cannot find module 'firebase-functions'
+Require stack:
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\index.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\prepare.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorShared.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\commandUtils.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\database-get.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\index.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js {"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\deploy\\functions\\runtimes\\node\\versioning.js","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\deploy\\functions\\runtimes\\node\\index.js","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\deploy\\functions\\runtimes\\index.js","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\deploy\\functions\\prepare.js","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorShared.js","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulator.js","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\controller.js","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\commandUtils.js","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\commands\\database-get.js","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\commands\\index.js","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\index.js","C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\bin\\firebase.js"]}
+[debug] [2025-09-15T20:10:58.649Z] checkFunctionsSDKVersion encountered error: Invalid Version:  {}
+[debug] [2025-09-15T20:10:58.651Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-09-15T20:10:58.651Z] Building nodejs source
+[debug] [2025-09-15T20:10:58.652Z] Failed to find version of module node: reached end of search path C:\Users\DELL\AndroidStudioProjects\GalaxyChat\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2025-09-15T20:10:58.656Z] Could not parse firebase-functions version '' into semver. Falling back to parseTriggers.
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Error parsing triggers: Cannot find module 'firebase-functions/v2/https'
+Require stack:
+- C:\Users\DELL\AndroidStudioProjects\GalaxyChat\functions\index.js
+- C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\triggerParser.js
+
+Try running "npm install" in your functions directory before deploying. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Error parsing triggers: Cannot find module 'firebase-functions/v2/https'\nRequire stack:\n- C:\\Users\\DELL\\AndroidStudioProjects\\GalaxyChat\\functions\\index.js\n- C:\\Users\\DELL\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\deploy\\functions\\runtimes\\node\\triggerParser.js\n\nTry running \"npm install\" in your functions directory before deploying."}}
+[debug] [2025-09-15T20:10:59.139Z] >>> [apiv2][query] PUT http://127.0.0.1:9000/.settings/rules.json ns=galaxychat-f8061-default-rtdb
+[debug] [2025-09-15T20:10:59.139Z] >>> [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json "{\n  \"rules\": {\n    \".read\": false,\n    \".write\": false\n  }\n}"
+[debug] [2025-09-15T20:11:00.238Z] 21:11:00.238 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - galaxychat-f8061-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 463ms, init: 0ms
+ {"metadata":{"emulator":{"name":"database"},"message":"21:11:00.238 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - galaxychat-f8061-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 463ms, init: 0ms\r\n"}}
+[debug] [2025-09-15T20:11:00.484Z] 21:11:00.483 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace galaxychat-f8061-default-rtdb status Active to Active
+ {"metadata":{"emulator":{"name":"database"},"message":"21:11:00.483 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace galaxychat-f8061-default-rtdb status Active to Active\r\n"}}
+[debug] [2025-09-15T20:11:00.691Z] <<< [apiv2][status] PUT http://127.0.0.1:9000/.settings/rules.json 200
+[debug] [2025-09-15T20:11:00.691Z] <<< [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json {"status":"ok"}
+[debug] [2025-09-15T20:11:00.702Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4545/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬──────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI              │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4545/auth       │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4545/functions  │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4545/firestore  │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Database       │ 127.0.0.1:9000 │ http://127.0.0.1:4545/database   │
+├────────────────┼────────────────┼──────────────────────────────────┤
+│ Extensions     │ 127.0.0.1:5001 │ http://127.0.0.1:4545/extensions │
+└────────────────┴────────────────┴──────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+┌─────────────────────────┬───────────────┬─────────────────────┐
+│ Extension Instance Name │ Extension Ref │ View in Emulator UI │
+└─────────────────────────┴───────────────┴─────────────────────┘
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2025-09-15T21:09:31.916Z] Sep 15, 2025 10:09:31 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 15, 2025 10:09:31 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel\r\nINFO: Connected to new websocket client\r\n"}}
+[debug] [2025-09-15T21:17:29.270Z] Sep 15, 2025 10:17:29 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 15, 2025 10:17:29 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2025-09-15T21:17:30.721Z] Sep 15, 2025 10:17:30 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 15, 2025 10:17:30 PM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected HTTP/2 connection.\r\n"}}
+[debug] [2025-09-15T21:17:31.507Z] 22:17:31.477 [FirebaseWorkerPool-1-1] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace galaxychat-f8061, but the emulator is configured for galaxychat-f8061-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+ {"metadata":{"emulator":{"name":"database"},"message":"22:17:31.477 [FirebaseWorkerPool-1-1] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested \nnamespace galaxychat-f8061, but the emulator is configured for galaxychat-f8061-default-rtdb. To \nopt-out of single project mode add/set the singleProjectMode: false property in \nthe firebase.json emulators config. \r\n"}}
+[debug] [2025-09-15T21:17:31.919Z] 22:17:31.916 [NamespaceSystem-akka.actor.default-dispatcher-10] INFO com.firebase.core.namespace.NamespaceActor - galaxychat-f8061 successfully activated FBKV (SurveyIdle(0)) wait: 90ms, init: 0ms
+ {"metadata":{"emulator":{"name":"database"},"message":"22:17:31.916 [NamespaceSystem-akka.actor.default-dispatcher-10] INFO com.firebase.core.namespace.NamespaceActor - galaxychat-f8061 successfully activated FBKV (SurveyIdle(0)) wait: 90ms, init: 0ms\r\n"}}
+[debug] [2025-09-15T21:17:36.077Z] 22:17:36.077 [FirebaseWorkerPool-1-2] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace fake-server, but the emulator is configured for galaxychat-f8061,galaxychat-f8061-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+ {"metadata":{"emulator":{"name":"database"},"message":"22:17:36.077 [FirebaseWorkerPool-1-2] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested \nnamespace fake-server, but the emulator is configured for galaxychat-f8061,galaxychat-f8061-default-rtdb. To \nopt-out of single project mode add/set the singleProjectMode: false property in \nthe firebase.json emulators config. \r\n"}}
+[debug] [2025-09-15T21:17:36.085Z] 22:17:36.085 [NamespaceSystem-akka.actor.default-dispatcher-13] INFO com.firebase.core.namespace.NamespaceActor - fake-server successfully activated FBKV (SurveyIdle(0)) wait: 3ms, init: 0ms
+ {"metadata":{"emulator":{"name":"database"},"message":"22:17:36.085 [NamespaceSystem-akka.actor.default-dispatcher-13] INFO com.firebase.core.namespace.NamespaceActor - fake-server successfully activated FBKV (SurveyIdle(0)) wait: 3ms, init: 0ms\r\n"}}
