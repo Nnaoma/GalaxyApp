@@ -43,13 +43,13 @@ This project is a real-time 1:1 chat application built as part of the developer 
 * MVVM + Repository Pattern (Architecture)
 
 ## Screenshots
-![Screenshot 1](https://ibb.co/20hMBg5n)
-![Screenshot 2](https://ibb.co/HLrrSY1p)
-![Screenshot 3](https://ibb.co/5gXSvhbC)
-![Screenshot 4](https://ibb.co/8DPCB1RZ)
-![Screenshot 5](https://ibb.co/gLdKBdcg)
-![Screenshot 6](https://ibb.co/gLdKBdcg)
-![Screenshot 7](https://ibb.co/0pDQfVrS)
+![Screenshot 1](images/Screenshot_1)
+![Screenshot 2](images/Screenshot_2)
+![Screenshot 3](images/Screenshot_3)
+![Screenshot 4](images/Screenshot_4)
+![Screenshot 5](images/Screenshot_5)
+![Screenshot 6](images/Screenshot_6)
+![Screenshot 7](images/Screenshot_7)
 
 ## Setup Instructions
 * Clone the repository.
